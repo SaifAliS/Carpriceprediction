@@ -20,7 +20,6 @@ def predict():
         Year = int(request.form['Year'])
         Present_Price=float(request.form['Present_Price'])
         Kms_Driven=int(request.form['Kms_Driven'])
-        Kms_Driven2=np.log(Kms_Driven)
         Owner=int(request.form['Owner'])
         Fuel_Type_Petrol=request.form['Fuel_Type_Petrol']
         if(Fuel_Type_Petrol=='Petrol'):
