@@ -51,6 +51,8 @@ def predict():
     else:
         return render_template('index.html')
 
+portNo = process.env.PORT
+
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(port=portNo,debug=False)
 
