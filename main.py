@@ -14,9 +14,7 @@ def Home():
 
 standard_to = StandardScaler()
 
-@app.route('/', methods=["GET"])
-def home():
-    return render_template('index.html')
+
     
 
 
